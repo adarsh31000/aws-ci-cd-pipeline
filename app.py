@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Define the main route
 @app.route('/')
 def home():
-    return "Hello, AWS CodePipeline!"  # Modify this message
+    return "Hello, AWS hi CodePipeline!"  # Modify this message
 
 # Run the Flask app
 if __name__ == "__main__":
